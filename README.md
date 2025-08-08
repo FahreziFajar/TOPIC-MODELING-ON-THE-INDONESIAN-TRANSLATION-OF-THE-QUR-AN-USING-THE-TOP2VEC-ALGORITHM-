@@ -1,1 +1,5 @@
 # TOPIC-MODELING-ON-THE-INDONESIAN-TRANSLATION-OF-THE-QUR-AN-USING-THE-TOP2VEC-ALGORITHM-
+
+This study aims to identify the main themes within the Indonesian translation of the Qur'an using the Top2Vec algorithm. The dataset consists of 6,236 verses obtained from tanzil.net. The process involves text preprocessing (tokenization, stopword removal, and lemmatization), vector formation using Doc2Vec, dimensionality reduction with UMAP, and clustering via HDBSCAN. The results yielded ten primary topics reflecting themes such as divinity, prophethood, punishment, deeds, and the afterlife. Visualizations including word clouds, bar charts, topic similarity heatmaps, and 2D UMAP projections were used to clarify the thematic structure. Evaluation using the coherence metric (c_v) produced scores ranging from 0.2033 to 0.4420, indicating moderate semantic quality that remains relevant within the religious context. Top2Vec proved effective in automatically extracting and visualizing themes in the Qur'anic text.
+
+Keywords: Top2Vec, Topic Modeling, Al-Qur’an, Natural Language Processing, Coherence
